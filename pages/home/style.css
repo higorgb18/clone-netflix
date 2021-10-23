@@ -38,6 +38,7 @@ header .logo {
     font-family: 'Arial Black', Times;
     font-size: 40px;
     text-transform: uppercase;
+    cursor: pointer;
 
 }
 
@@ -59,7 +60,7 @@ header nav a:hover {
 
     font-size: 16px;
 
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)100%), url('../img/dark.jpg');
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)100%), url('../../img/dark.jpg');
     height: 400px;
     background-size: cover;
     background-position: center 20%;
@@ -68,6 +69,8 @@ header nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-bottom: 20px;
+
 
 }
 
@@ -99,7 +102,9 @@ header nav a:hover {
     font-family: 'Roboto', serif;
 
     cursor: pointer;
-    transition: .3s ease all
+    transition: .3s ease all;
+
+    text-decoration: none;
 
 }
 
@@ -128,6 +133,13 @@ header nav a:hover {
 
 }
 
+.carrossel label {
+
+    font-size: 24px;
+    margin-left: 15px;
+
+}
+
 .owl-theme {
 
     margin-top: 10px;
@@ -139,6 +151,14 @@ header nav a:hover {
     height: 100%;
     width: 100%;
     display: block;
+    cursor: pointer;
+
+}
+
+.box-filme:hover {
+
+    opacity: .7;
+    transition: .25s ease-in-out;
 
 }
 

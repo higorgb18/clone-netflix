@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+
+    --vermelho: #E50914;
+    --preta: #141414;
+
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background: var(--preta);
+    font-family: 'Roboto', serif;
+    color: #fff;
+
+}
+
+header .container {
+
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+
+}
+
+header .logo {
+
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    text-transform: uppercase;
+
+}
+
+header nav {
+
+
+}
+
+header nav a {
+
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 20px;
+
+}
+
+header nav a:hover {
+
+    color: #fff;
+
+}
+
+.container {
+
+    margin-left: 30px;
+
+}
+
+.container a {
+
+    text-decoration: none;
+
+}
+
+.filme-principal {
+
+    font-size: 16px;
+
+    background: linear-gradient(90deg, rgba(157,6,45,.15) 0%, rgba(159,88,120,.15) 100%), url('../../img/dark2.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center 20%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.filme-principal .descricao {
+
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+
+.logo-titulo {
+
+    width: 350px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo-titulo img {
+
+    opacity: 0.3;
+
+}
+
+.titulo {
+
+    margin-top: 5%;
+    font-size: 50px;
+    font-family: "Helvetica", sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 60px;
+
+}
+
+.btn {
+
+    background-color: #fff;
+    border: none;
+    color: #000;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Roboto', serif;
+
+    cursor: pointer;
+    transition: .3s ease all;
+
+    text-decoration: none;
+
+}
+
+.btn:hover {
+
+    background-color: #fff;
+    color: #000;
+
+}
+
+.btn i {
+
+    margin-right: 8px;
+
+}
+
+.container {
+
+    display: flex;
+    margin-left: 30px;
+    flex-direction: column;
+
+}
+
+.container img {
+
+    width: 100%;
+    display: block;
+
+}
+
+.filme-principal .container {
+
+    width: 40%;
+
+}
+
+.carrossel-episodios {
+
+    display: flex;
+    height: 300px;
+    width: 400px;
+    position: relative;
+
+    align-items: center;
+
+    background: rgba( 255, 255, 255, 0.1 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 15px 0 0 15px;
+    transition: .5s;
+
+}
+
+.carrossel-episodios:hover {
+
+    width: 780px;
+    transition: .5s;
+
+}
+
+.carrossel-episodios .arrow {
+
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    z-index: 2;
+
+    position: absolute;
+    left: -25px;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(233, 233, 233);
+    box-shadow: 2px -3px 40px -1px rgba(0,0,0,.5);
+
+}
+
+.arrow i {
+
+    width: 50%;
+    font-size: 30px;
+    height: auto;
+    margin: 0;
+    color: #1f1f1f;
+
+}
+
+.box-episodio {
+
+    width: 100%;
+    height: 100%;
+    display: block;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 20px;
+    transition: .25s ease-in-out;
+
+}
+
+.box-episodio:hover {
+
+    opacity: .7;
+    transition: .25s ease-in-out;
+    width: 110%;
+
+}
+
+.owl-theme {
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.owl-theme .texto {
+
+    margin: 0 0 20px 55px;
+    width: 150px;
+    color:rgba( 255, 255, 255, 0.7 );
+  
+}
+
+.texto h5{
+
+    margin-top: 5px;
+
+}
+
+.owl-carousel-main button {
+
+    display: none;
+  
+}
+
+.item {
+
+    display: flex;
+    width: 250px;
+    flex-direction: row;
+    margin-left: 45px;
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    
+
+}
